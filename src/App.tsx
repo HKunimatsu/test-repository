@@ -29,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>test</p>
         <p>二倍にしたい値を入力するのだ！</p>
         <p>
           <input type="text" value={numInp} onChange={event => setNumInp(event.target.value)}/>
